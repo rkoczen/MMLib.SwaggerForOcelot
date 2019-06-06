@@ -42,7 +42,6 @@ namespace ApiGateway
                 .UseOcelot()
                 .Wait();
 
-            string test = string.Empty;
         }
     }
 }
