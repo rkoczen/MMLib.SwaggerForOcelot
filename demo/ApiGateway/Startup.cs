@@ -41,6 +41,8 @@ namespace ApiGateway
             app.UseSwaggerForOcelotUI(Configuration)
                 .UseOcelot()
                 .Wait();
+
+            string test = string.Empty;
         }
     }
 }
